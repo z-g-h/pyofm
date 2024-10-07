@@ -23,6 +23,9 @@ OFMesh::OFMesh(
 
 OFMesh::~OFMesh()
 {
+    runTimePtr_.clear();
+    meshPtr_.clear();
+    argsPtr_.clear();
 }
 
 void OFMesh::readMesh()
